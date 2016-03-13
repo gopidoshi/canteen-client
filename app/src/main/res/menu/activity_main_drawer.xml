@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_order"
+            android:icon="@drawable/new_order"
+            android:title="New +" />
+        <item
+            android:id="@+id/menu_favourtes"
+            android:icon="@drawable/menu_favourtes"
+            android:title="Favourties" />
+        <item
+            android:id="@+id/menu_wallet"
+            android:icon="@drawable/menu_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@drawable/menu_setting"
+            android:title="Settings" />
+    </group>
+
+</menu>
